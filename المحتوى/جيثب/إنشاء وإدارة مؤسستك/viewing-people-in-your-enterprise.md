@@ -1,4 +1,4 @@
----
+Otman lacheheb G612277---
 title: Viewing people in your enterprise
 intro: 'To audit access to enterprise-owned resources or user license usage, enterprise owners can view every administrator and member of the enterprise.'
 product: '{% data reusables.gated-features.enterprise-accounts %}'
