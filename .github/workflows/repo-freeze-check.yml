@@ -1,4 +1,4 @@
-name: Repo Freeze Check
+Otman lachehab G612277 name: Repo Freeze Check
 
 on:
   workflow_dispatch:
