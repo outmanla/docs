@@ -1,4 +1,110 @@
-## GitHub Docs <!-- omit in toc -->
+##تخطى الى المحتوى
+مكسرتشتخطى الى المحتوى
+مكسرتش
+/
+GHunt
+رمز
+مشاكل
+11
+طلبات السحب
+3
+مناقشات
+أجراءات
+المشاريع
+ويكي
+حماية
+أفكار
+GHunt/عامل ميناء/ download_chromedriver.py
+outime
+outime استخدم برنامج التثبيت التلقائي ChromeDriver ، وإصلاح أذونات النسخ
+ 1 مساهم
+20 سطراً (15 sloc)  804 بايت
+ 
+استيراد  chromedriver_autoinstaller
+استيراد  نظام التشغيل
+استيراد  الإحصائيات
+
+من  chromedriver_autoinstaller . أدوات  استيراد  get_chrome_version ، get_major_version
+من  السيلينيوم  استيراد  webdriver
+
+
+dir_path  =  نظام التشغيل . المسار . dirname ( نظام التشغيل . الطريق . realpath ( __FILE__ ))
+chrome_major_version  =  get_major_version ( get_chrome_version ())
+final_chromedriver_path  =  dir_path  +  '/'  +  'chromedriver'
+
+طباعة ( f'Downloading ChromeDriver لإصدار Chrome المثبت ( { chrome_major_version } ) ... " )
+chromedriver_autoinstaller . تثبيت ( صواب )
+نظام التشغيل . إعادة تسمية ( dir_path  +  '/'  +  chrome_major_version  +  '/ chromedriver' ، final_chromedriver_path )
+ش  =  نظام التشغيل . stat ( final_chromedriver_path )
+نظام التشغيل . chmod ( final_chromedriver_path ، st . st_mode  |  stat . S_IXUSR  |  stat . S_IXGRP  |  stat . S_IXOTH )
+نظام التشغيل . rmdir ( dir_path  +  '/'  +  chrome_major_version )
+
+طباعة ( "تم تنزيل ChromeDriver بنجاح." )
+© 2021 GitHub، Inc.
+شروط
+خصوصية
+حماية
+حالة
+المستندات
+اتصل بـ GitHub
+التسعير
+API
+تمرين
+مقالات
+حول
+
+/
+GHunt
+رمز
+مشاكل
+11
+طلبات السحب
+3
+مناقشات
+أجراءات
+المشاريع
+ويكي
+حماية
+أفكار
+GHunt/عامل ميناء/ download_chromedriver.py
+outime
+outime استخدم برنامج التثبيت التلقائي ChromeDriver ، وإصلاح أذونات النسخ
+ 1 مساهم
+20 سطراً (15 sloc)  804 بايت
+ 
+استيراد  chromedriver_autoinstaller
+استيراد  نظام التشغيل
+استيراد  الإحصائيات
+
+من  chromedriver_autoinstaller . أدوات  استيراد  get_chrome_version ، get_major_version
+من  السيلينيوم  استيراد  webdriver
+
+
+dir_path  =  نظام التشغيل . المسار . dirname ( نظام التشغيل . الطريق . realpath ( __FILE__ ))
+chrome_major_version  =  get_major_version ( get_chrome_version ())
+final_chromedriver_path  =  dir_path  +  '/'  +  'chromedriver'
+
+طباعة ( f'Downloading ChromeDriver لإصدار Chrome المثبت ( { chrome_major_version } ) ... " )
+chromedriver_autoinstaller . تثبيت ( صواب )
+نظام التشغيل . إعادة تسمية ( dir_path  +  '/'  +  chrome_major_version  +  '/ chromedriver' ، final_chromedriver_path )
+ش  =  نظام التشغيل . stat ( final_chromedriver_path )
+نظام التشغيل . chmod ( final_chromedriver_path ، st . st_mode  |  stat . S_IXUSR  |  stat . S_IXGRP  |  stat . S_IXOTH )
+نظام التشغيل . rmdir ( dir_path  +  '/'  +  chrome_major_version )
+
+طباعة ( "تم تنزيل ChromeDriver بنجاح." )
+© 2021 GitHub، Inc.
+شروط
+خصوصية
+حماية
+حالة
+المستندات
+اتصل بـ GitHub
+التسعير
+API
+تمرين
+مقالات
+حول
+ GitHub Docs <!-- omit in toc -->
 
 This repository contains the documentation website code and Markdown source files for [docs.github.com](https://docs.github.com).
 
