@@ -1,4 +1,17 @@
-## GitHub Docs <!-- omit in toc -->
+## package cz.mtrakal.remoteview;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+}
+ Docs <!-- omit in toc -->
 
 This repository contains the documentation website code and Markdown source files for [docs.github.com](https://docs.github.com).
 
